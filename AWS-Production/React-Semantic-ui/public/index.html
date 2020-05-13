@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Hitta recept som matchar ingredienserna du har hemma!"
+    />
+    <title>Recepthjälp.se - Hitta recept genom vad du har hemma!</title>
+<script data-ad-client="ca-pub-8909625621886045" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+if (!window.noat) {
+  window.noat = {};
+}
+window.noat.cookieConsent = {
+  text: 'Vänligen acceptera om du godkänner att vi får använda cookies för att lagra dina preferenser, detta kommer hjälpa oss optimera vilka recept som visas. ',
+  privacyPolicyText: ' ',
+  privacyPolicyUrl: ' ',
+  denyText: 'Neka',
+  allowText: 'Godkänd'
+};
+</script>
+<script language="javascript" src="dist/gdpr-cookie-monster.min.js"></script>
+
+
+    <script>
+      function getWidth() {
+          return Math.max(
+              document.body.scrollWidth,
+              document.documentElement.scrollWidth,
+              document.body.offsetWidth,
+              document.documentElement.offsetWidth,
+              document.documentElement.clientWidth
+            );
+      }
+
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        };
+
+      function fitDesktop(){
+            if(getWidth() > 800){
+             document.getElementById('root').style.marginLeft = "30%";
+           }
+           else {
+              document.getElementById('root').style.marginLeft = "3%";
+           }
+          }
+
+          function openInNewTab(url) {
+              var win = window.open(url, '_blank');
+              win.focus();
+            }
+   </script>
+    <style>
+    .myDivivder{
+      width:95%;
+      float: left;
+    }
+    #mainGrid{
+      margin: 0 0 0 0.3em;
+    }
+      span.weak {
+     color: #444; font-size: 0.9em;
+    }
+    #missing{
+      padding: .1833em .133em;
+    }
+    #cookieReopener{
+      position: absolute;
+      bottom: 10px;
+    }
+
+          </style>
+        </head>
+        <body style="background-color:#F5EBDF;" onload="fitDesktop();" >
+
+          <br/>
+            <br/>
+          <noscript>You need to enable JavaScript to run this app.</noscript>
+          <div id="root"></div>
+        </body>
+</html>
